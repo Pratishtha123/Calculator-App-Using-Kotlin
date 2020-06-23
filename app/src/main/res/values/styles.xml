@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1565c0</item>
+        <item name="colorPrimaryDark">#0d47a1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="ActionButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/actionButton</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+    <style name="NumberButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/numericButton</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+</resources>
